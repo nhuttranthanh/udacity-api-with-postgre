@@ -1,0 +1,42 @@
+{
+    "name": "udacity-api-with-postgre",
+    "version": "1.0.0",
+    "description": "Udacity api with postgre",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tsc",
+        "test": "jasmine-ts",
+        "start": "node dist/server.js",
+        "dev": "nodemon src/server.ts",
+        "watch": "tsc -w",
+        "tsc": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nhuttranthanh/udacity-api-with-postgre.git"
+    },
+    "author": "Udacity",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nhuttranthanh/udacity-api-with-postgre/issues"
+    },
+    "homepage": "https://github.com/nhuttranthanh/udacity-api-with-postgre#readme",
+    "dependencies": {
+        "@types/express": "^4.17.21",
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "pg": "^8.11.5",
+        "typescript": "^5.4.5"
+    },
+    "devDependencies": {
+        "@types/jasmine": "^5.1.4",
+        "@types/pg": "^8.11.5",
+        "jasmine": "^5.1.0",
+        "jasmine-spec-reporter": "^7.0.0",
+        "jasmine-ts": "^0.4.0",
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2",
+        "tsc-watch": "^6.2.0"
+    }
+}
